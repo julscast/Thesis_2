@@ -11,3 +11,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+tab1, tab2, tab3 = st.tabs(["Pre-Election","During Election","Post-Election","Overall"])
+
+with tab1:
+    st.header("Pre-Election Data Statistics")
+    
+

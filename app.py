@@ -1,9 +1,13 @@
 import streamlit as st
 
-def main():
-    st.title("Test Title")
 
-    st.write("Wazzup")
+st.set_page_config(page_title="Sentiment Analysis of Halalan 2022 Twitter Data", page_icon="🗳️", 
+                   layout="wide", initial_sidebar_state="expanded")
 
-if __name__ == "__main__":
-    main()
+st.title("Sentiment Analysis of Halalan 2022 Twitter Data")
+st.sidebar.success("Select a page above.")
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+

@@ -15,7 +15,6 @@ def start_main():
     if selected_tab == "Statistics":
         stats()
     elif selected_tab == "Topic Models":
-        st.write("Topic Models")
         topics()
     elif selected_tab == "Sentiment Analysis":
         sentiment()
